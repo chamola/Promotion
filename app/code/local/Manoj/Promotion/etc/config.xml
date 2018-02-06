@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Manoj_Promotion>
+            <version>0.1.1</version>
+        </Manoj_Promotion>
+    </modules>
+    <global>
+        <blocks>
+            <adminhtml>
+                <rewrite>
+                    <promo_quote_edit_tab_main>Manoj_Promotion_Block_Adminhtml_Edit_Tab_Main</promo_quote_edit_tab_main>
+                </rewrite>
+            </adminhtml>
+        </blocks>
+		<resources> 
+		    <promotion_setup>
+		        <setup>
+		            <module>Manoj_Promotion</module>
+		        </setup>
+		        <connection>
+		            <use>core_setup</use>
+		        </connection>
+		    </promotion_setup>
+		</resources>
+    </global>
+</config>
